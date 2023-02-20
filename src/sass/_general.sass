@@ -1,0 +1,473 @@
+nav
+  position: fixed
+  min-width: 100%
+  height: 50px
+  background-color: #212121
+  z-index: 5
+
+.hamburger
+    display: none
+
+.menu
+  display: flex
+
+  /* Делает элементы в линию
+  justify-content: space-between
+  padding: 13px 70px
+  text-decoration: none
+
+  /* Убирает нижнее подчеркивание ссылок
+  margin: 0
+  list-style-type: none
+
+  &_link
+    color: $white_color
+    font-size: 15px
+    font-weight: 300
+    text-decoration: none
+
+  &_item
+    border-right: 4px dotted black
+    padding-right: 30px
+    &:last-child
+        border-right: none
+
+.header
+  position: relative
+
+  /* Родитель для subheader, который должен быть RELATIVE
+
+.subheader
+  position: absolute
+
+  /* Абсолютное расположение блока, чтобы следующий блок наехал на этот, для абсолюта родитель должен быть RELATIVE
+  width: 100%
+
+  /* Ширина блока во всю ширину экрана
+  height: 84px
+  background-color: rgba(0, 0, 0, 0.6)
+
+  /* Полупрозрачность под черным наложением
+  margin-top: 50px
+
+  &_logo
+    display: block
+    max-width: 100%
+    margin-top: 16px
+
+  &_text
+    color: $white_color
+    opacity: 0.5
+
+    /* Прозрачность
+    font-size: 13px
+    font-weight: 400
+    margin-top: 6px
+
+  &_phone
+    display: block
+    margin-top: 8px
+    color: $white_color
+    font-size: 22px
+    font-weight: 400
+    text-transform: uppercase
+    text-align: right
+    line-height: 12px
+    text-decoration: none
+
+  &_call
+    color: $white_color
+    font-size: 12px
+    font-weight: 300
+    margin-top: 19px
+    text-align: right
+
+  &_button
+    /* Стиль кнопки
+    width: 172px
+    height: 46px
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+
+    /* Тень элемента (X, Y, R, цвет  тени)
+    border: none
+    border-radius: 4px
+    background-image: linear-gradient(to top, $blue_color 0%, #4ce2ff 100%)
+    margin-top: 19px
+
+    /* Стиль текста кнопки
+    color: $white_color
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+    font-size: 14px
+    font-weight: 400
+    text-transform: uppercase
+
+    /* Эффект кнопки
+    +btn_hover
+
+.promo
+  min-height: 800px
+  background: url('../img/background/background1.jpg') center (center / cover) no-repeat
+  padding: 150px 0 135px 0
+
+  &_header
+    color: $white_color
+    font-weight: 700
+    text-transform: uppercase
+    font-size: 60px
+    line-height: 60px
+    margin: 0
+    text-align: center
+
+  &_subheader
+    color: $white_color
+    font-weight: 700
+    text-transform: uppercase
+    font-size: 36px
+    line-height: 36px
+    margin: 0
+    margin-top: 23px
+    text-align: center
+
+  &_text
+    color: $white_color
+    font-size: 18px
+    font-weight: 400
+    line-height: 24px
+    text-align: center
+    margin-top: 23px
+
+  &_btn
+    /* Стиль кнопки
+    display: block
+    margin: 118px auto 0 auto
+    width: 259px
+    height: 63px
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+    border: none
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+    border-radius: 4px
+
+    /* Стиль текста кнопки
+    color: $white_color
+    font-size: 18px
+    font-weight: 400
+    text-transform: uppercase
+
+    /* Стиль текста кнопки
+    +btn_hover
+
+.label
+  display: block
+  margin: 0 auto
+  background-color: black
+  width: 112px
+  height: 24px
+  padding: 5px 12px
+  font-size: 11px
+  color: $white_color
+  text-transform: uppercase
+  text-align: center
+
+.title
+    display: block
+    font-size: 38px
+    color: rgb(34, 34, 34)
+    font-weight: bold
+    text-transform: uppercase
+    text-align: center
+    margin-top: 38px
+
+.subtitle
+  display: block
+  font-size: 17px
+  font-family: "Roboto"
+  color: rgb(34, 34, 34)
+  text-align: center
+
+
+.reason
+  display: flex
+  min-height: 899px
+  padding: 71px 0 65px 0
+
+  &_item
+    display: flex
+    margin-left: 35px
+    max-width: 480px
+    margin-top: 40px
+
+  &_img
+    display: block
+    max-height: 113px
+    max-width: 113px
+    margin-top: 16px
+
+  &_subheader
+    font-size: 17px
+    color: $blue_color
+    line-height: -12px
+    text-align: left
+
+  &_description
+    display: block
+    margin-left: 26px
+    font-size: 15px
+    line-height: -13px
+    width: 410px
+    margin-left: 139
+    text-align: justify
+    font-weight: 500 
+
+.mobile
+    min-height: 864px
+    padding: 48px 0 79px 0
+    background: url('../img/background/background2.jpg')
+    .row
+        margin-top: 32px
+    &_item
+        position: relative
+        width: 320px
+        height: 280px
+        margin: 0 auto
+        margin-bottom: 19px
+        padding-top: 85px
+        &_1
+            background: url('../img/card1.png') center (center / cover) no-repeat
+        &_2
+            background: url('../img/card2.png') center (center / cover) no-repeat
+        &_3
+            background: url('../img/card3.png') center (center / cover) no-repeat    
+        &_4
+            background: url('../img/card4.png') center (center / cover) no-repeat
+        &_5
+            background: url('../img/card5.png') center (center / cover) no-repeat
+        &_6
+            background: url('../img/card6.png') center (center / cover) no-repeat
+        &_subtitle
+            color: $white_color
+            font-size: 24px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+            line-height: 31px
+        &_plus
+            display: flex
+            justify-content: center
+            align-items: center
+            position: absolute
+            bottom: 35px
+            left: 50%                       //* Идеальное положение справа от середены *//
+            transform: translateX(-50%)     //* Необходимо чтобы вычесть размеры самого элемнта, после чего будет находиться точно по центру *//
+            width: 26px
+            height: 26px
+            background-color: $black_color
+            margin: 0 auto
+            border-radius: 100%
+            cursor: pointer
+            &:before
+                content: ''
+                display: block
+                width: 12px
+                height: 2px
+                background-color: $blue_color
+                transition: 0.3s all
+
+            &:after
+                content: ''
+                position: absolute
+                left: 50%
+                transform: translateX(-50%) 
+                width: 2px
+                height: 12px
+                background-color: $blue_color
+                transition: 0.3s all
+            &:hover
+                &:before, &:after
+                    background-color: $white_color                
+.car
+    height: 892px
+    padding: 56px 0 100px 0
+    background: url('../img/background/background_car.jpg')
+    position: relative
+    &_text
+        display: block
+        margin: 0 auto
+        text-align: center
+        margin-top: 520px
+        font-weight: 500
+        line-height: -16px
+    img
+        max-width: 700px
+        position: absolute
+        margin-top: 70px
+        left: 50%
+        transform: translateX(-50%)
+
+.white_label
+    display: block
+    margin: 0 auto
+    background-color: white
+    width: 112px
+    height: 24px
+    padding: 5px 12px
+    font-size: 11px
+    color: $black_color
+    text-transform: uppercase
+    text-align: center
+
+.white_title
+    font-size: 38px
+    color: $white_color
+    font-weight: bold
+    text-transform: uppercase
+    text-align: center
+    margin-top: 25px
+
+.white_subtitle
+    font-size: 17px
+    color: $white_color
+    text-align: center
+
+
+.require
+    padding: 68px 0 84px 0
+    &_block
+        margin: 33px 0
+        margin-left: 55px
+        &_nmb 
+            margin-bottom: 0px 
+    &_title
+        color: #1ca8c3
+        font-size: 22px
+        font-weight: 400
+    &_list
+        list-style-type: none
+        padding-left: 50px
+        margin-top: 22px
+        li
+            +list
+            &:before
+                content: ''
+                display: block
+                position: absolute
+                left: -32px
+                top: 12px
+                transform: translateY(-50%)
+                width: 21px
+                height: 20px
+                background: url('../icons/blue-check.png') center center/cover no-repeat   //* Правильное отображения путя к файлу *//
+    &_descr
+        margin-top: 25px
+        font-size: 17px
+        font-weight: 300
+        line-height: 24px
+        color: #1ca8c3
+    .warning          //* Красные разделы требования и документы *//
+        .require_title
+             color: $blue_color
+        .require_list
+            li                   //* +list - миксин, задекларированный сверху, имеет общие свойства для описания списка *//
+                +list          
+                &:before 
+                    display: block
+                    position: absolute
+                    left: -32px
+                    top: 12px
+                    transform: translateY(-50%)
+                    width: 21px
+                    height: 20px                
+                    background: url('../icons/red-check.png') center center/cover no-repeat      //* Добавление к списку слева (before) картинки *//
+
+.world
+    background: url('../img/background/background_map.jpg') center center/cover no-repeat
+    &_block
+        padding: 50px 0 50px 0
+    &_text
+        display: block
+        margin: 0 auto
+        margin-top: 470px
+        line-height: -16px
+        font-size: 15px
+        color: $blue_color
+        text-transform: uppercase
+        text-align: center
+
+.footer
+    position: relative
+    min-height: 144px
+    &_headline
+        background-color: $blue_color
+        width: 299px
+        height: 4px
+        margin: 0 auto
+        margin-top: 14px
+    &_menu
+        display: flex
+        /* Делает элементы в линию
+        justify-content: space-between
+        padding: 20px 350px 0 360px 
+        min-width: 370px
+        text-decoration: none
+
+        /* Убирает нижнее подчеркивание ссылок
+        margin: 0
+        list-style-type: none
+        &_link
+            color: $black_color
+            font-size: 15px
+            font-weight: 400
+            text-decoration: none
+            text-transform: uppercase
+    &_submenu
+        display: flex
+        /* Делает элементы в линию
+        justify-content: space-between
+        min-width: 370px
+        text-decoration: none
+        padding: 5px 350px 0 350px 
+        /* Убирает нижнее подчеркивание ссылок
+        list-style-type: none
+        &_link
+            color: grey
+            font-size: 11px
+            font-weight: 400
+            text-decoration: none
+            text-transform: uppercase
+
+    &_social
+        position: absolute
+        top: 40px
+        left: 30px
+        img
+            min-width: 50px
+            margin-left: 5px
+    &_download
+        display: flex
+        justify-content: center
+        flex-direction: column
+        position: absolute
+        top: 10px
+        bottom: 10px
+        right: 70px
+        &_appstore
+            max-width: 153px
+            max-height: 54px
+        &_google
+            max-width: 180px
+            max-height: 114px
+            margin-top: -25px
+            margin-bottom: -28px
+        &_windows
+            max-width: 220px
+            max-height: 55px      
+            
+    &_textlanguage
+        display: block
+        color: $blue_color
+        font-size: 11px
+        text-transform: uppercase 
+        text-align: center
+        text-decoration: none
+        list-style-type: none
+.xs-visible
+        display: none

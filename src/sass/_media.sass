@@ -1,0 +1,400 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 12px
+    .promo
+        &_header
+            font-size: 45px
+        &_subheader
+            font-size: 30px
+    .reason
+        &_item
+            margin-left: 0px
+        &_description
+            width: 300px
+    .mobile
+        &_item
+            width: 280px
+            height: 260px
+            &_subtitile
+                font-size: 22px
+    .footer
+        &_menu
+            padding: 20px 285px 5px 290px
+        &_submenu
+            padding: 20px 285px 25px 290px
+        &_social
+            img
+                width: 50px
+                height: 50px
+        &_download
+            display: inline-block
+            top: 1px
+            right: 70px
+            width: 160px
+            &_appstore
+                max-width: 153px
+                max-height: 54px
+            &_google
+                max-width: 180px
+                max-height: 114px
+                margin-top: -25px
+                margin-bottom: -28px
+            &_windows
+                max-width: 220px
+                max-height: 55px
+
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 5px
+        &_link
+            font-size: 11px
+    .subheader
+            &_logo
+                img
+                    width: 100%
+            &_text
+                font-size: 12px
+            &_phone
+                font-size: 20px
+            &_button
+                margin-top: 21px
+                width: 100%
+                height: 40px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 25px
+    .mobile
+        &_item
+            width: 220px
+            height: 250px
+            &_subtitle
+                font-size: 18px
+    .footer
+        position: relative
+        &_menu
+            padding: 20px 180px 5px 190px
+        &_submenu
+            padding: 20px 160px 25px 160px
+            &_link
+                margin-bottom: 5px
+        &_social
+            display: flex
+            position: absolute
+            flex-direction: column
+            justify-content: space-between
+            top: 2px
+            &_links
+                display: block
+                margin: 0 auto
+            img
+                margin-bottom: 20px
+        &_download
+            display: inline-block
+            top: 1px
+            right: 70px
+            width: 90px
+            &_appstore
+                max-width: 150px
+                max-height: 54px
+                margin-bottom: 5px
+            &_google
+                max-width: 150px
+                max-height: 114px
+                margin-top: -1px
+                margin-bottom: -1px
+            &_windows
+                max-width: 190px
+                max-height: 55px
+                margin-bottom: 5px
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        top: 0
+        right: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: rgba(0, 0, 0, 0.8)
+        transition: 0.6s all
+        &_active
+            height: 100%
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px
+        &_link
+            font-size: 20px 
+    .hamburger
+        display: block
+        position: absolute
+        right: 26px
+        top: 50%
+        width: 25px
+        transform: translateY(-50%)
+        height: 18x
+        span
+            display: block
+            height: 3px
+            width: 100%
+            margin-bottom: 3px
+            background-color: #fff
+            transition: 0.5s all
+        &_active
+            span    
+                marrgin-bottom: px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(2)       
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(-3px) rotate(-45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            margin-left: 50px
+            font-size: 20px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center   
+        &_button
+            display: block 
+            margin-top: 10px 
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px 
+    .car
+        img
+            max-width: 540px            
+    
+    .promo
+        &_header
+            font-size: 36px
+            line-height: 45px
+            margin-top: 20px
+        &_subheader
+            font-size: 22px
+            margin-top: 10px
+    .mobile
+        &_item
+            width: 245px
+            height: 275px
+            &_subtitle
+                font-size: 18px
+
+    .footer
+        position: relative
+        &_menu
+            padding: 20px 125px 5px 130px
+            &_link
+                font-size: 12px
+        &_submenu
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            padding: 20px 96px 25px 96px
+        &_textlanguage
+            font-size: 15px
+        &_social
+            display: flex
+            position: absolute
+            top: 10px
+            flex-direction: column
+            justify-content: space-between
+            &_links
+                display: block
+                margin: 0 auto
+            img
+                min-width: 36px
+                margin-bottom: 8px
+        &_download
+            display: inline-block
+            top: 1px
+            right: 32px
+            width: 90px
+            &_appstore
+                max-width: 120px
+                max-height: 54px
+            &_google
+                max-width: 120px
+                max-height: 114px
+                margin-top: 1px
+                margin-bottom: 1px
+            &_windows
+                max-width: 122px
+                max-height: 55px
+        &_textlanguage
+            font-size: 11px
+
+@media (max-width: 575px)
+    .menu
+        &_item
+            width: 100%
+            text-align: center
+            padding: 4px
+        &_link
+            display: block
+            font-size: 17px
+    .subheader
+        height: 60px
+        &_logo
+            margin-top: 18px
+        &_text
+            display: none
+        &_phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            margin-left: 20px
+        &_button
+            width: 110px
+            height: 22px
+            font-size: 8px
+            &:hover
+                background-image: linnear-gradient(to top, $blue_color 0%, #4ce2ff 100%)
+    .reason
+        padding: 20px 0 20px 0
+        img
+            display: block
+            margin: 0 auto
+        &_item
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &_subheader
+            font-size: 17px
+            color: $blue_color
+            line-height: -12px
+            text-align: center
+            margin-top: 10px
+        &_description
+            display: block
+            font-size: 15px
+            line-height: -13px
+            text-align: justify
+            font-weight: 500 
+
+    .mobile 
+        .title
+            margin-top: 20px
+            line-height: 40px
+        .subtitle
+            margin-top: 15px
+        &_item
+            width: 330px
+            height: 330px
+            &_subtitle
+                font-size: 26px
+            &_plus
+                width: 50px
+                height: 50px
+                &:before
+                    content: ''
+                    width: 24px
+                    height: 4px
+                &:after
+                    content: ''
+                    width: 4px
+                    height: 24px
+                    
+
+    .promo
+        min-height: 400px
+        padding: 93px 0 35px 0
+        &_header
+            font-size: 30px
+            padding: 20px 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            line-height: 30px 
+            padding: 0 10px
+        &_text
+            display: none
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+            font-size: 16px
+            &:hover
+                background-image: linnear-gradient(to top, $blue_color 0%, #4ce2ff 100%)
+    
+    .car 
+        height: 650px
+        &_text
+            margin-top: 300px
+        img
+            width: 400px    
+
+    .require
+        padding: 30px 0 30px 0
+
+    .world_block
+        padding: 25px 0 25px 0
+
+    .footer
+        position: relative
+        &_menu
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            padding: 20px 90px 0px 90px
+            &_link
+                font-size: 15px
+        &_submenu
+            padding: 20px 90px 0px 90px
+        &_social
+            display: flex
+            position: absolute
+            top: 15px
+            flex-direction: column
+            justify-content: center
+            &_links
+                display: block
+                margin: 0 auto
+                text-align: center
+            img
+                height: 36px
+                width: 36px
+                margin-bottom: 15px
+        &_download
+            display: inline-block
+            top: 25px
+            right: 35px
+            width: 90px
+            &_appstore
+                max-width: 120px
+                max-height: 54px
+            &_google
+                max-width: 120px
+                max-height: 114px
+                margin-top: -2px
+                margin-bottom: -2px
+            &_windows
+                max-width: 122px
+                max-height: 55px
+        &_textlamguage
+            display: block
+            margin: 0 auto
+            text-align: center

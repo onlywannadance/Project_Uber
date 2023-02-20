@@ -1,0 +1,57 @@
+[0727/010017.912:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0727/100517.782:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0727/124051.786:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0728/191448.728:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0728/191448.728:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0728/191448.748:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0728/214638.764:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0728/214638.764:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0728/214638.782:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0729/020550.424:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0730/185428.034:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0730/185428.034:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0730/185428.050:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0730/194602.128:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0730/194602.128:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0730/194602.822:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0730/194602.822:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0730/215144.631:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0730/230359.096:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0730/230359.574:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0731/023718.168:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0731/135102.970:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0731/135103.633:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0801/014335.527:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0801/104544.624:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0802/015220.168:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0802/102826.687:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0802/111953.727:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0802/122846.855:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0802/122848.653:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0803/010156.719:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0803/083239.661:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0803/215212.061:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0803/234700.926:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0803/234701.560:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0804/025820.745:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0804/103659.117:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0804/103659.684:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0804/194712.004:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0804/225211.734:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0805/015528.965:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0805/123444.834:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0805/123445.720:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0805/170035.087:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0805/230518.088:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0805/230519.631:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0806/032333.582:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0806/110756.638:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
